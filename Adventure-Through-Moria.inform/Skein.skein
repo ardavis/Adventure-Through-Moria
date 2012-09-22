@@ -1,397 +1,317 @@
-<?xml version="1.0"?>
-<Skein rootNode="node-0x1ff326a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
-  <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ff326a0" />
-  <item nodeId="node-0x1ff326a0">
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x021B3E10" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x021B3E10"/>
+  <item nodeId="node-0x021B3E10">
     <command xml:space="preserve">- start -</command>
-    <result xml:space="preserve">
-
-
-
-Your adventure leads you and your fellow companions, recently titled the Fellowship of the Ring, to the West Gate of Khazad-dûm. The Fellowship consists of Gandalf the Grey Wizard, Aragorn the Ranger, Legolas the Elf, Boromir, a man of Gondor, Gimli the Dwarf, and your fellow Hobbits Sam, Pippin, and Merry. Khazad-dûm, now referred to as the Mines of Moria, is an old home to the Dwarves and is revered for its grand size and beauty. The West Gate entrance is an old and almost forgotten one. Your party wishes to enter and use it as a swift and unobserved path towards Mordor. However, it seems the way is shut, requiring a password for entry...
-
-Adventure-Through-Moria
-An Interactive Fiction by Andrew Davis and Ryan McGuire
-Release 1 / Serial number 120922 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
-
-West Gate
-You can see a Durin Doors here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="591">NO</temporary>
-    <children>
-      <child nodeId="node-0x1ff53740" />
-      <child nodeId="node-0x1ff326f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff326f0">
-    <command xml:space="preserve">door</command>
-    <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
-
-Gandalf says that the elvish atop the door seems to be a riddle
-Speak the password  &gt;</result>
+    <result xml:space="preserve">&#x000A;&#x000A;&#x000A;&#x000A;Your adventure leads you and your fellow companions, recently titled the Fellowship of the Ring, to the West Gate of Khazad-d&#x00FB;m. The Fellowship consists of Gandalf the Grey Wizard, Aragorn the Ranger, Legolas the Elf, Boromir, a man of Gondor, Gimli the Dwarf, and your fellow Hobbits Sam, Pippin, and Merry. Khazad-d&#x00FB;m, now referred to as the Mines of Moria, is an old home to the Dwarves and is revered for its grand size and beauty. The West Gate entrance is an old and almost forgotten one. Your party wishes to enter and use it as a swift and unobserved path towards Mordor. However, it seems the way is shut, requiring a password for entry...&#x000A;&#x000A;Adventure-Through-Moria&#x000A;An Interactive Fiction by Andrew Davis and Ryan McGuire&#x000A;Release 1 / Serial number 120922 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;West Gate&#x000A;You can see a Durin Doors here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1ff32740" />
+      <child nodeId="node-0x021CF3B8"/>
+      <child nodeId="node-0x021B3E80"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff32740">
-    <command xml:space="preserve">asdf</command>
-    <result xml:space="preserve">The silver lines faded, but the blank grey stone did not stir. Gandalf wonders if you should ask Legolas about elvish.
-
-Would you like to try another password? (Yes or No)  &gt;</result>
+  <item nodeId="node-0x021CF3B8">
+    <command xml:space="preserve">l Pippin</command>
+    <result xml:space="preserve">Tall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff32790" />
+      <child nodeId="node-0x021CF428"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff32790">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-&gt;</result>
+  <item nodeId="node-0x021CF428">
+    <command xml:space="preserve">take pipeweed from Pippin</command>
+    <result xml:space="preserve">That seems to belong to now Pippin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff53320" />
+      <child nodeId="node-0x021CF498"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff53320">
+  <item nodeId="node-0x021CF498">
+    <command xml:space="preserve">take pipeweed</command>
+    <result xml:space="preserve">That seems to belong to now Pippin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF508">
+    <command xml:space="preserve">l Pippin</command>
+    <result xml:space="preserve">Tall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF638"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF638">
+    <command xml:space="preserve">l Merry</command>
+    <result xml:space="preserve">Short&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF6A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF6A8">
+    <command xml:space="preserve">l The Fellowship</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF718">
+    <command xml:space="preserve">pippin</command>
+    <result xml:space="preserve">Tall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF788">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CF7F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF7F8">
     <command xml:space="preserve">ask Legolas about elvish</command>
-    <result xml:space="preserve">Legolas says, &quot;Sure friend, I&apos;d be happy to help. Here&apos;s my Elvish-to-English translator that I use to better understand those around me.&quot;
-
- The Elvish-to-English Translator has been added to your inventory!
-
-&gt;</result>
+    <result xml:space="preserve">Legolas says, "Sure friend, I'd be happy to help. Here's my Elvish-to-English translator that I use to better understand those around me."&#x000A;&#x000A; The Elvish-to-English Translator has been added to your inventory!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff53370" />
+      <child nodeId="node-0x021CF868"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff53370">
-    <command xml:space="preserve">l translator</command>
-    <result xml:space="preserve">You open the book...
-Elvish       -&gt;  English
------------------------
-Ruth        -&gt;  Anger 
-Dagor      -&gt;  Battle 
-Hîni         -†††ⴠ&gt;  Children 
-Nogoth   -&gt;  Dwarf 
-Edhel       -&gt;  Elf 
-Mellon    -&gt;  Friend 
-Anna       -&gt;  Gift 
-Thôl        - 
-&gt;  Helmet 
-Heleg      -&gt;  Ice 
-Lenn        -&gt;  Journey 
-Aran        -&gt;  King 
-Galad      -&gt;  Light 
-Adan       -&gt;  Man 
-Neder      -&gt;  Nine 
-Min         -&gt;  One 
-Gwaith    -&gt;  People 
-Bereth     -&gt;  Queen 
-Cor          -&gt;  Ring 
-Dae          -&gt;  Shadow 
-Barad      -&gt;  Tower 
-Nu           -&gt;  Under 
-Imlad      -&gt;  Valley 
-Ohtar      -&gt;  Warrior 
-Neth        -&gt;  Youth 
-
-&gt;</result>
+  <item nodeId="node-0x021CF868">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  an Elvish-to-English Translator&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff533c0" />
+      <child nodeId="node-0x021CF8D8"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff533c0">
+  <item nodeId="node-0x021CF8D8">
     <command xml:space="preserve">door</command>
-    <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
-
-Gandalf says that the elvish atop the door seems to be a riddle
-Speak the password  &gt;</result>
+    <result xml:space="preserve">Stone door with elvish writing atop, "Speak, "friend" and Enter"&#x000A;&#x000A;Gandalf says that the elvish atop the door seems to be a riddle&#x000A;Speak the password  &gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff53490" />
+      <child nodeId="node-0x021CF948"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff53490">
+  <item nodeId="node-0x021CF948">
     <command xml:space="preserve">mellon</command>
-    <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.
-
-&gt;</result>
+    <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="591">NO</temporary>
+    <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff534e0" />
+      <child nodeId="node-0x021CE9F8"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff534e0">
+  <item nodeId="node-0x021CE9F8">
     <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-First Hall of Moria
-You can see a Durin Doors here.
-
-&gt;</result>
+    <result xml:space="preserve">&#x000A;First Hall of Moria&#x000A;You can see a Durin Doors here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CEA68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CEA68">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">&#x000A;Mithril Forge&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CEAD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CEAD8">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CEB48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CEB48">
+    <command xml:space="preserve">mellon</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="510">YES</temporary>
+    <children>
+      <child nodeId="node-0x021CEBB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CEBB8">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">&#x000A;Armory&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="509">YES</temporary>
+  </item>
+  <item nodeId="node-0x021B3E80">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">Stone door with elvish writing atop, "Speak, "friend" and Enter"&#x000A;&#x000A;Gandalf says that the elvish atop the door seems to be a riddle&#x000A;Speak the password  &gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1ff53610" />
-      <child nodeId="node-0x1ff53530" />
+      <child nodeId="node-0x021B3EF0"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff53530">
-    <command xml:space="preserve">search</command>
-    <result xml:space="preserve">You wander around the room in the dark and stumble on an old crate. Maybe you can open it.
-
-&gt;</result>
+  <item nodeId="node-0x021B3EF0">
+    <command xml:space="preserve">asdf</command>
+    <result xml:space="preserve">The silver lines faded, but the blank grey stone did not stir. Gandalf wonders if you should ask Legolas about elvish.&#x000A;&#x000A;Would you like to try another password? (Yes or No)  &gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="591">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1ff535a0" />
+      <child nodeId="node-0x021B3F60"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff535a0">
-    <command xml:space="preserve">open crate</command>
-    <result xml:space="preserve">You open the crate.
-
-&gt;</result>
+  <item nodeId="node-0x021B3F60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="590">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021B3FD0"/>
+    </children>
   </item>
-  <item nodeId="node-0x1ff53610">
+  <item nodeId="node-0x021B3FD0">
+    <command xml:space="preserve">ask Legolas about elvish</command>
+    <result xml:space="preserve">Legolas says, "Sure friend, I'd be happy to help. Here's my Elvish-to-English translator that I use to better understand those around me."&#x000A;&#x000A; The Elvish-to-English Translator has been added to your inventory!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021B4040"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021B4040">
+    <command xml:space="preserve">l translator</command>
+    <result xml:space="preserve">You open the book...&#x000A;Elvish       -&gt;  English&#x000A;-----------------------&#x000A;Ruth        -&gt;  Anger &#x000A;Dagor      -&gt;  Battle &#x000A;H&#x00EE;ni         -&#x2020;&gt;  Children &#x000A;Nogoth   -&gt;  Dwarf &#x000A;Edhel       -&gt;  Elf &#x000A;Mellon    -&gt;  Friend &#x000A;Anna       -&gt;  Gift &#x000A;Th&#x00F4;l        -&#x000A;&gt;  Helmet &#x000A;Heleg      -&gt;  Ice &#x000A;Lenn        -&gt;  Journey &#x000A;Aran        -&gt;  King &#x000A;Galad      -&gt;  Light &#x000A;Adan       -&gt;  Man &#x000A;Neder      -&gt;  Nine &#x000A;Min         -&gt;  One &#x000A;Gwaith    -&gt;  People &#x000A;Bereth     -&gt;  Queen &#x000A;Cor          -&gt;  Ring &#x000A;Dae          -&gt;  Shadow &#x000A;Barad      -&gt;  Tower &#x000A;Nu           -&gt;  Under &#x000A;Imlad      -&gt;  Valley &#x000A;Ohtar      -&gt;  Warrior &#x000A;Neth        -&gt;  Youth &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021B40B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021B40B0">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">Stone door with elvish writing atop, "Speak, "friend" and Enter"&#x000A;&#x000A;Gandalf says that the elvish atop the door seems to be a riddle&#x000A;Speak the password  &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021E58F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021E58F8">
+    <command xml:space="preserve">mellon</command>
+    <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021CF1F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF1F8">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">&#x000A;First Hall of Moria&#x000A;You can see a Durin Doors here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="591">NO</temporary>
+    <children>
+      <child nodeId="node-0x021CF348"/>
+      <child nodeId="node-0x021CF268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x021CF348">
     <command xml:space="preserve">open crate</command>
-    <result xml:space="preserve">You open the crate.
-
-&gt;</result>
+    <result xml:space="preserve">You open the crate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="543">YES</temporary>
   </item>
-  <item nodeId="node-0x1ff53740">
-    <command xml:space="preserve">l Pippin</command>
-    <result xml:space="preserve">Tall
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53430" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53430">
-    <command xml:space="preserve">take pipeweed from Pippin</command>
-    <result xml:space="preserve">That seems to belong to now Pippin.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff537b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff537b0">
-    <command xml:space="preserve">take pipeweed</command>
-    <result xml:space="preserve">That seems to belong to now Pippin.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53820" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53820">
-    <command xml:space="preserve">l Pippin</command>
-    <result xml:space="preserve">Tall
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53890" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53890">
-    <command xml:space="preserve">l Merry</command>
-    <result xml:space="preserve">Short
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53900" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53900">
-    <command xml:space="preserve">l The Fellowship</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53970" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53970">
-    <command xml:space="preserve">pippin</command>
-    <result xml:space="preserve">Tall
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff539e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff539e0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53680" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53680">
-    <command xml:space="preserve">ask Legolas about elvish</command>
-    <result xml:space="preserve">Legolas says, &quot;Sure friend, I&apos;d be happy to help. Here&apos;s my Elvish-to-English translator that I use to better understand those around me.&quot;
-
- The Elvish-to-English Translator has been added to your inventory!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff536d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff536d0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  an Elvish-to-English Translator
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53bd0">
-    <command xml:space="preserve">door</command>
-    <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
-
-Gandalf says that the elvish atop the door seems to be a riddle
-Speak the password  &gt;</result>
+  <item nodeId="node-0x021CF268">
+    <command xml:space="preserve">search</command>
+    <result xml:space="preserve">You wander around the room in the dark and stumble on an old crate. Maybe you can open it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="510">YES</temporary>
+    <temporary score="591">YES</temporary>
     <children>
-      <child nodeId="node-0x1ff53c40" />
+      <child nodeId="node-0x021CF2D8"/>
     </children>
   </item>
-  <item nodeId="node-0x1ff53c40">
-    <command xml:space="preserve">mellon</command>
-    <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53cb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53cb0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-First Hall of Moria
-You can see a Durin Doors here.
-
-&gt;</result>
+  <item nodeId="node-0x021CF2D8">
+    <command xml:space="preserve">open crate</command>
+    <result xml:space="preserve">You open the crate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53d20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53d20">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Mithril Forge
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53d90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53d90">
-    <command xml:space="preserve">door</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53e00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53e00">
-    <command xml:space="preserve">mellon</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="510">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ff53e70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ff53e70">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Armory
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="509">YES</temporary>
+    <temporary score="590">YES</temporary>
   </item>
 </Skein>
