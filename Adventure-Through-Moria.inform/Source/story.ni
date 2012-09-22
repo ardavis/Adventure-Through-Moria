@@ -19,7 +19,7 @@ Section - Rooms
 The West Gate is a room.
 
 [ The First Hall of Moria ]
-The First Hall of Moria is east of the DurinDoors. Understand "First Hall" as the First Hall of Moria.
+The First Hall of Moria is east of the Durin Doors. Understand "First Hall" as the First Hall of Moria.
 
 [ Mithril Forge ]
 The Mithril Forge is east of the First Hall of Moria. Understand "Forge" as the Mithril Forge.
@@ -94,7 +94,7 @@ Instead of searching the room:
 	say "You wander around the room in the dark and stumble on an old crate. Maybe you can open it.";
 
 [ Torches ]
-
+There are 3 torches in the crate.
 
 
 [ Matches ]

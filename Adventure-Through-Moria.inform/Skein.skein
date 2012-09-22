@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1e1618c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1e19d360" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1e1618c0" />
-  <item nodeId="node-0x1e1618c0">
+  <activeNode nodeId="node-0x1e19d360" />
+  <item nodeId="node-0x1e19d360">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -22,11 +22,11 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e162000" />
-      <child nodeId="node-0x1e161950" />
+      <child nodeId="node-0x1e1bf2d0" />
+      <child nodeId="node-0x1e19d3b0" />
     </children>
   </item>
-  <item nodeId="node-0x1e161950">
+  <item nodeId="node-0x1e19d3b0">
     <command xml:space="preserve">door</command>
     <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
 
@@ -36,10 +36,10 @@ Speak the password  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161aa0" />
+      <child nodeId="node-0x1e19d400" />
     </children>
   </item>
-  <item nodeId="node-0x1e161aa0">
+  <item nodeId="node-0x1e19d400">
     <command xml:space="preserve">asdf</command>
     <result xml:space="preserve">The silver lines faded, but the blank grey stone did not stir. Gandalf wonders if you should ask Legolas about elvish.
 
@@ -48,10 +48,10 @@ Would you like to try another password? (Yes or No)  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161af0" />
+      <child nodeId="node-0x1e19d450" />
     </children>
   </item>
-  <item nodeId="node-0x1e161af0">
+  <item nodeId="node-0x1e19d450">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 &gt;</result>
@@ -59,10 +59,10 @@ Would you like to try another password? (Yes or No)  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161ba0" />
+      <child nodeId="node-0x1e1beeb0" />
     </children>
   </item>
-  <item nodeId="node-0x1e161ba0">
+  <item nodeId="node-0x1e1beeb0">
     <command xml:space="preserve">ask Legolas about elvish</command>
     <result xml:space="preserve">Legolas says, &quot;Sure friend, I&apos;d be happy to help. Here&apos;s my Elvish-to-English translator that I use to better understand those around me.&quot;
 
@@ -73,22 +73,23 @@ Would you like to try another password? (Yes or No)  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161c10" />
+      <child nodeId="node-0x1e1bef00" />
     </children>
   </item>
-  <item nodeId="node-0x1e161c10">
+  <item nodeId="node-0x1e1bef00">
     <command xml:space="preserve">l translator</command>
     <result xml:space="preserve">You open the book...
 Elvish       -&gt;  English
 -----------------------
 Ruth        -&gt;  Anger 
 Dagor      -&gt;  Battle 
-Hîni         -&gt;  Children 
+Hîni         -†&gt;  Children 
 Nogoth   -&gt;  Dwarf 
 Edhel       -&gt;  Elf 
 Mellon    -&gt;  Friend 
 Anna       -&gt;  Gift 
-Thôl        -&gt;  Helmet 
+Thôl        -
+&gt;  Helmet 
 Heleg      -&gt;  Ice 
 Lenn        -&gt;  Journey 
 Aran        -&gt;  King 
@@ -111,10 +112,10 @@ Neth        -&gt;  Youth
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161c60" />
+      <child nodeId="node-0x1e1bef50" />
     </children>
   </item>
-  <item nodeId="node-0x1e161c60">
+  <item nodeId="node-0x1e1bef50">
     <command xml:space="preserve">door</command>
     <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
 
@@ -124,10 +125,10 @@ Speak the password  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161d50" />
+      <child nodeId="node-0x1e1bf020" />
     </children>
   </item>
-  <item nodeId="node-0x1e161d50">
+  <item nodeId="node-0x1e1bf020">
     <command xml:space="preserve">mellon</command>
     <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.
 
@@ -136,10 +137,10 @@ Speak the password  &gt;</result>
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161da0" />
+      <child nodeId="node-0x1e1bf070" />
     </children>
   </item>
-  <item nodeId="node-0x1e161da0">
+  <item nodeId="node-0x1e1bf070">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 First Hall of Moria
@@ -150,11 +151,11 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="591">NO</temporary>
     <children>
-      <child nodeId="node-0x1e161ed0" />
-      <child nodeId="node-0x1e161df0" />
+      <child nodeId="node-0x1e1bf1a0" />
+      <child nodeId="node-0x1e1bf0c0" />
     </children>
   </item>
-  <item nodeId="node-0x1e161df0">
+  <item nodeId="node-0x1e1bf0c0">
     <command xml:space="preserve">search</command>
     <result xml:space="preserve">You wander around the room in the dark and stumble on an old crate. Maybe you can open it.
 
@@ -163,10 +164,10 @@ You can see a Durin Doors here.
     <changed>YES</changed>
     <temporary score="591">YES</temporary>
     <children>
-      <child nodeId="node-0x1e161e60" />
+      <child nodeId="node-0x1e1bf130" />
     </children>
   </item>
-  <item nodeId="node-0x1e161e60">
+  <item nodeId="node-0x1e1bf130">
     <command xml:space="preserve">open crate</command>
     <result xml:space="preserve">You open the crate.
 
@@ -175,7 +176,7 @@ You can see a Durin Doors here.
     <changed>YES</changed>
     <temporary score="590">YES</temporary>
   </item>
-  <item nodeId="node-0x1e161ed0">
+  <item nodeId="node-0x1e1bf1a0">
     <command xml:space="preserve">open crate</command>
     <result xml:space="preserve">You open the crate.
 
@@ -184,7 +185,7 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="543">YES</temporary>
   </item>
-  <item nodeId="node-0x1e162000">
+  <item nodeId="node-0x1e1bf2d0">
     <command xml:space="preserve">l Pippin</command>
     <result xml:space="preserve">Tall
 
@@ -193,10 +194,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e161cf0" />
+      <child nodeId="node-0x1e1befc0" />
     </children>
   </item>
-  <item nodeId="node-0x1e161cf0">
+  <item nodeId="node-0x1e1befc0">
     <command xml:space="preserve">take pipeweed from Pippin</command>
     <result xml:space="preserve">That seems to belong to now Pippin.
 
@@ -205,10 +206,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e162070" />
+      <child nodeId="node-0x1e1bf340" />
     </children>
   </item>
-  <item nodeId="node-0x1e162070">
+  <item nodeId="node-0x1e1bf340">
     <command xml:space="preserve">take pipeweed</command>
     <result xml:space="preserve">That seems to belong to now Pippin.
 
@@ -217,10 +218,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e1620e0" />
+      <child nodeId="node-0x1e1bf3b0" />
     </children>
   </item>
-  <item nodeId="node-0x1e1620e0">
+  <item nodeId="node-0x1e1bf3b0">
     <command xml:space="preserve">l Pippin</command>
     <result xml:space="preserve">Tall
 
@@ -229,10 +230,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e162150" />
+      <child nodeId="node-0x1e1bf420" />
     </children>
   </item>
-  <item nodeId="node-0x1e162150">
+  <item nodeId="node-0x1e1bf420">
     <command xml:space="preserve">l Merry</command>
     <result xml:space="preserve">Short
 
@@ -241,10 +242,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e1621c0" />
+      <child nodeId="node-0x1e1bf490" />
     </children>
   </item>
-  <item nodeId="node-0x1e1621c0">
+  <item nodeId="node-0x1e1bf490">
     <command xml:space="preserve">l The Fellowship</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -253,10 +254,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e162230" />
+      <child nodeId="node-0x1e1bf500" />
     </children>
   </item>
-  <item nodeId="node-0x1e162230">
+  <item nodeId="node-0x1e1bf500">
     <command xml:space="preserve">pippin</command>
     <result xml:space="preserve">Tall
 
@@ -265,10 +266,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x13407510" />
+      <child nodeId="node-0x1e1bf570" />
     </children>
   </item>
-  <item nodeId="node-0x13407510">
+  <item nodeId="node-0x1e1bf570">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -277,10 +278,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e161f40" />
+      <child nodeId="node-0x1e1bf210" />
     </children>
   </item>
-  <item nodeId="node-0x1e161f40">
+  <item nodeId="node-0x1e1bf210">
     <command xml:space="preserve">ask Legolas about elvish</command>
     <result xml:space="preserve">Legolas says, &quot;Sure friend, I&apos;d be happy to help. Here&apos;s my Elvish-to-English translator that I use to better understand those around me.&quot;
 
@@ -291,10 +292,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e161f90" />
+      <child nodeId="node-0x1e1bf260" />
     </children>
   </item>
-  <item nodeId="node-0x1e161f90">
+  <item nodeId="node-0x1e1bf260">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   an Elvish-to-English Translator
@@ -304,10 +305,10 @@ You can see a Durin Doors here.
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x13407700" />
+      <child nodeId="node-0x1e1bf760" />
     </children>
   </item>
-  <item nodeId="node-0x13407700">
+  <item nodeId="node-0x1e1bf760">
     <command xml:space="preserve">door</command>
     <result xml:space="preserve">Stone door with elvish writing atop, &quot;Speak, &quot;friend&quot; and Enter&quot;
 
@@ -317,10 +318,10 @@ Speak the password  &gt;</result>
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x13407770" />
+      <child nodeId="node-0x1e1bf7d0" />
     </children>
   </item>
-  <item nodeId="node-0x13407770">
+  <item nodeId="node-0x1e1bf7d0">
     <command xml:space="preserve">mellon</command>
     <result xml:space="preserve">The star shone out briefly and faded again. Then silently a great doorway was outlined, through not a crack or joint had been visible before. Slowly it divided in the middle and swung outwards inch by inch, until both doors lay back against the wall.
 
@@ -329,10 +330,10 @@ Speak the password  &gt;</result>
     <changed>NO</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x134077e0" />
+      <child nodeId="node-0x1e1bf840" />
     </children>
   </item>
-  <item nodeId="node-0x134077e0">
+  <item nodeId="node-0x1e1bf840">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 First Hall of Moria
@@ -343,10 +344,10 @@ You can see a Durin Doors here.
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e166e40" />
+      <child nodeId="node-0x1e1bf8b0" />
     </children>
   </item>
-  <item nodeId="node-0x1e166e40">
+  <item nodeId="node-0x1e1bf8b0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Mithril Forge
@@ -356,10 +357,10 @@ Mithril Forge
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e166eb0" />
+      <child nodeId="node-0x1e1bf920" />
     </children>
   </item>
-  <item nodeId="node-0x1e166eb0">
+  <item nodeId="node-0x1e1bf920">
     <command xml:space="preserve">door</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -368,10 +369,10 @@ Mithril Forge
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e166f20" />
+      <child nodeId="node-0x1e1bf990" />
     </children>
   </item>
-  <item nodeId="node-0x1e166f20">
+  <item nodeId="node-0x1e1bf990">
     <command xml:space="preserve">mellon</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -380,10 +381,10 @@ Mithril Forge
     <changed>YES</changed>
     <temporary score="510">YES</temporary>
     <children>
-      <child nodeId="node-0x1e166f90" />
+      <child nodeId="node-0x1e1bfa00" />
     </children>
   </item>
-  <item nodeId="node-0x1e166f90">
+  <item nodeId="node-0x1e1bfa00">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Armory
