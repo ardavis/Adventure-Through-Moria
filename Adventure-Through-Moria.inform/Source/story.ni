@@ -16,7 +16,7 @@ Section - Rooms
 [TODO - Add extra paths]
 
 [ The West Gate ] 
-The West Gate is a room. "The Doors of Durin can be seen from here."
+The West Gate is a room.
 
 [ The First Hall of Moria ]
 The First Hall of Moria is east of the Durin Doors. Understand "First Hall" as the First Hall of Moria.
